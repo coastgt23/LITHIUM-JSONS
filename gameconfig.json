@@ -1,0 +1,59 @@
+{
+  "Rooms": [
+    {
+      "ReplicationId": "68251132-5662-5c34-08b1-4a830a27955b",
+      "Name": "DormRoom",
+      "Description": "Default dorm room",
+      "Scenes": [
+        {
+          "IsSandbox": false,
+          "MaxPlayers": 1,
+          "Name": "DormScene",
+          "RoomSceneLocationId": 1001
+        }
+      ]
+    },
+    {
+      "ReplicationId": "12345678-1234-1234-1234-123456789000",
+      "Name": "Paintball",
+      "Description": "Paintball arena",
+      "Scenes": [
+        {
+          "IsSandbox": false,
+          "MaxPlayers": 16,
+          "Name": "PaintballMap",
+          "RoomSceneLocationId": 1002
+        }
+      ]
+    }
+  ],
+
+  "CustomRooms": [
+    {
+      "BHPRHUDFBWZCEIJFVQHG": "Custom player room",
+      "CIVPEMESQAIUBLZHXUNA": "MyRoom",
+      "NLZGBCXTQDCXNQYNWMSZ": [
+        {
+          "GKDQCTIXPBRUUTAORXFX": "SaveDataBlob",
+          "UnityAssetId": "unity-asset-guid-001",
+          "DXLCSNGZJQYZCJCCHKAQ": 10,
+          "XABBIXTJPMRVUDZURJSQ": "SubRoomA",
+          "TCUGHHWOAWGHMQYQAZNY": 2001
+        }
+      ]
+    }
+  ],
+
+  "UnityAssets": [
+    {
+      "UnityAssetId": "unity-asset-guid-001",
+      "Name": "StarterRoomAsset",
+      "AssetBundleUrl": "https://example.com/assets/starterroom.bundle"
+    },
+    {
+      "UnityAssetId": "unity-asset-guid-002",
+      "Name": "PaintballAsset",
+      "AssetBundleUrl": "https://example.com/assets/paintball.bundle"
+    }
+  ]
+}
