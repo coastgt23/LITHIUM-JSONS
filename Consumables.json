@@ -1,0 +1,31 @@
+{
+  "GenericConsumables": [
+    {
+      "ConsumableItemDesc": "Root Beer"
+    },
+    {
+      "ConsumableItemDesc": "Pizza Slice"
+    }
+  ],
+  "HairDyeConsumables": [
+    {
+      "ConsumableItemDesc": "Red Hair Dye"
+    },
+    {
+      "ConsumableItemDesc": "Blue Hair Dye"
+    }
+  ],
+  "CouponConsumables": [
+    {
+      "ConsumableItemDesc": "10% Token Coupon"
+    }
+  ],
+  "HeadPotionConsumables": [
+    {
+      "ConsumableItemDesc": "Big Head Potion"
+    },
+    {
+      "ConsumableItemDesc": "Tiny Head Potion"
+    }
+  ]
+}
